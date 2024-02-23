@@ -32,6 +32,7 @@ This model will then be used by the management to understand how exactly the pri
 - On analysing data, it was observed that, Ridge and Lasso both the models have almost same test and train accuracy. So it can be said that there is no overfitting.
 - Lasso and Ridge both have similar r2 score and MAE on test dataset but Lasso has eliminated features and final no. of features in Lasso Regression model is 93. Where - Ridge has all 280 features. So, our Lasso model is simpler than Ridge with having similar r2 score and MAE.
 - Ridge Regression model on test dataset: r2 score= 0.794697, RSS= 1.211327, MSE= 0.002778	and RMSE=0.052709 Lasso Regression model on test dataset: r2 score= 0.741649, RSS= 1.524321, MSE= 0.003496 and RMSE=0.059128.
+- List of significant variables as per Lasso model
 
 ![image](https://github.com/prasenjit1980/HousePricePredictor_RidgeLasso/assets/152131715/22fd2a98-73ec-4c1f-a15b-8a3dee1fe5e7)
 
