@@ -33,9 +33,7 @@ This model will then be used by the management to understand how exactly the pri
 - Lasso and Ridge both have similar r2 score and MAE on test dataset but Lasso has eliminated features and final no. of features in Lasso Regression model is 93. Where - Ridge has all 280 features. So, our Lasso model is simpler than Ridge with having similar r2 score and MAE.
 - Ridge Regression model on test dataset: r2 score= 0.794697, RSS= 1.211327, MSE= 0.002778	and RMSE=0.052709 Lasso Regression model on test dataset: r2 score= 0.741649, RSS= 1.524321, MSE= 0.003496 and RMSE=0.059128.
 
-GrLivArea	OverallQual_10	TotalBsmtSF	OverallQual_9	Neighborhood_NoRidge	BsmtFinSF1	GarageCars	Neighborhood_Crawfor	LotArea	SaleType_New
-0.268405	0.129434	0.108239	0.085077	0.045434	0.042436	0.039535	0.034456	0.033786	0.031389
-![image](https://github.com/prasenjit1980/HousePricePredictor_RidgeLasso/assets/152131715/f926af3c-2593-405d-ab5f-9d11dd5ae93d)
+![image](https://github.com/prasenjit1980/HousePricePredictor_RidgeLasso/assets/152131715/22fd2a98-73ec-4c1f-a15b-8a3dee1fe5e7)
 
 
 Considering above points we can choose our Lasso Regression model as our final model.
