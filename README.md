@@ -1,5 +1,5 @@
 # Project Name
-> Bike Sharing Assignment
+> House Price Prediction using Ridge and Lasso Regression
 
 
 ## Table of Contents
@@ -10,12 +10,14 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. They have planned this to prepare themselves to cater to the people's needs once the situation gets better all around and stand out from other service providers and make huge profits.
+Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. The company is looking at prospective properties to buy to enter the market.
 
-Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+The company wants to know:
 
-* Which variables are significant in predicting the demand for shared bikes.
-* How well those variables describe the bike demands
+* Which variables are significant in predicting the price of a house.
+* How well those variables describe the price of a house.
+
+This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -27,14 +29,11 @@ Specifically, they want to understand the factors affecting the demand for these
 - Jupyter Notebook 6.5.4
 
 ## Conclusions
-- On analysing data, it was observed that, the linear regression model was able to predict bike demand precisely with an R2 Score of nearly 80%
+- On analysing data, it was observed that, Ridge and Lasso both the models have almost same test and train accuracy. So it can be said that there is no overfitting.
+- Lasso and Ridge both have similar r2 score and MAE on test dataset but Lasso has eliminated features and final no. of features in Lasso Regression model is 93. Where - Ridge has all 280 features. So, our Lasso model is simpler than Ridge with having similar r2 score and MAE.
+- Ridge Regression model on test dataset: r2 score= 0.794697, RSS= 1.211327, MSE= 0.002778	and RMSE=0.052709 Lasso Regression model on test dataset: r2 score= 0.741649, RSS= 1.524321, MSE= 0.003496 and RMSE=0.059128.
 
-- Comparision between Training and Testing dataset:
-  
-  Train dataset R^2 : 0.828
-  
-  Test dataset R^2 : 0.79
-
+Considering above points we can choose our Lasso Regression model as our final model.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
